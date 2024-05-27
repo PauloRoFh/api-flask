@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from repository.database import db
-from db_models.payment import Payment
+from db_models.payment import Payment # type: ignore
 
 app = Flask(__name__)
 
